@@ -32,4 +32,5 @@ def get_jokes(n, no_doubles=True):
     res.append(" ".join(tmp))
     if no_doubles:
         res2.extend(tmp)
-return res
+    return res
+print()
